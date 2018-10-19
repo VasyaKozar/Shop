@@ -1,0 +1,6 @@
+<%= form_for :product ,   url: new_product_path do |f|%>
+  Shopname: <%= f.text_field :shopname %><br />
+  Title : <%= f.text_field :title %><br />
+  Description : <%= f.text_field :description %><br />
+  <%= f.submit 'Search' %>
+<% end %>
